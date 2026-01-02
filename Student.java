@@ -1,6 +1,6 @@
 public class Student {
-  private String name;
-  private int age;
+  private final String name;
+  private final int age;
 
   //Constructor
   public Student(String name, int age){
@@ -9,7 +9,7 @@ public class Student {
   }
 
 
-  public Sting getName(){
+  public String getName(){
     return name;
   }
 
@@ -18,8 +18,8 @@ public class Student {
   }
 
   public void displayStudent(){
-    System.out.println('Name: '+name);
-    System.out.println('Age: '+age);
+      System.out.println("Name: "+name);
+      System.out.println("Age: "+age);
     
 
   }
